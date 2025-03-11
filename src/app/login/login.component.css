@@ -1,0 +1,31 @@
+.main{
+    width: 70%;
+    margin: 30px auto;
+    background-color: rgb(213, 216, 216);
+    padding: 10px;
+    border-radius: 5px;
+}
+.main .heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    padding: 10px;
+    font-size: 25px;
+}
+.main form input{
+    width: 90%;
+    display: block;
+    padding: 15px 5px;
+    margin: 10px 0px;
+    margin-left: 10px;
+}
+.main form button{
+    padding: 10px 50px;
+    margin-left: 10px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 16px;
+    cursor: pointer;
+}
+.main form span{
+    margin: 0px 20px;
+    font-size: 20px;
+}

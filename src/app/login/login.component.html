@@ -1,0 +1,9 @@
+<div class="main">
+    <div class="heading">Login</div>
+    <form>
+        <input type="text" placeholder="Enter username" [(ngModel)]="username" name="username">
+        <input type="password" placeholder="Enter password" [(ngModel)]="password" name="password">
+        <button (click)="login()">Login</button>
+        <span [ngStyle]="{color: isSucces ? 'green': 'red'}">{{message}}</span>
+    </form>
+</div>
